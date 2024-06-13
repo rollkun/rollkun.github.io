@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        span.highlighter {
+            color:rgb(0, 117, 6);
+        }
+
+        span.success {
+            color:rgb(0, 255, 13);
+        }
+
+        span.warning {
+            color:rgb(255, 234, 0);
+        }
+
+        span.danger {
+            color:rgb(255, 0, 0);
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rollkunovo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pg/about.html">O mně</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pg/projects.html">Projekty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pg/skills.html">Dovednosti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pg/contact.html">Kontakt</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="vh-100 d-flex justify-content-center align-items-center bg-light">
+        <div class="text-center">
+            <h1 class="display-4">Tohle je <b>moje</b> místo.</h1>
+            <p class="fs-4">A taky tak nějak osobní portfolio</p>
+            <p class="fs-6"><i>Tato stránka je školním projektem!</i></p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Krátce...</h2>
+                <p class="text-justify">Říkají mi Oštěp, jinak Rollkun. Jsem programátor. I přesto se rád venku dotýkám trávy a ve svém volném čase píšu cokoliv, co mě zrovna napadne. Mimo to i rád čtu. Učím webové programování, matematiku a fyziku pro mladší po menší konzultaci od 12-15 let spolu s doučováním matematiky pro jednotné přijímací zkoušky. Čaj piju v největším horku a zmrzlinu si kupuju v největší zimě.</p>
+                <p><span class="highlighter">rollkun</span> vítězí.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <h2>O doučování...</h2>
+                <p class="text-justify">V navigaci nahoře si rozklikni Kontakt. Preferovaně mi napiš na můj e-mail a do předmětu zprávy napiš něco, abych si toho všimnul. Zejména věc jako "DOUČOVÁNÍ-MAT" pomáhá a všimnu si toho mnohem dřív než nějakého shitpostu. Cena je domluvou a záleží především na délce a na počtu hodin věnovaných pro tvé vzdělání. Taky by bylo super podat kontakt na tvého zákonného zástupce.</p>
+            </div>
+
+            <div class="about-img-container container-fluid">
+                <img src="./img/pf-ed.jpg" class="img-fluid mx-auto d-block" alt="Moje fotka">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projects" class="container my-5">
+        <h1 class="text-center">Projekty</h1>
+        <div class="row">
+
+            <p class="fs-6 text-center">Projekty označené <span class="success">zelenou barvou</span> jsou dokončené, <span class="warning">žlutou barvou</span> pokud se na nich pracuje a <span class="danger">červenou barvou</span>, zda-li na něm není aktivní vývoj.</p>
+
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="danger">Sbírka úloh pro předmět Fyzika</span></h5>
+                        <p class="card-text text-justify">Tato práce se zabývá tvorbou a vývojem sbírky úloh pro výuku předmětu fyzika na základních školách. Cílem práce je poskytnout pedagogickým pracovníkům nástroj pro podporu aktivního učení a rozvoj konceptuálního porozumění fyzikálním jevům.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="success">Herbert The Game (v1.21)</span></h5>
+                        <p class="card-text text-justify">Hra o mém kamarádovi Herbetovi, která měla být jen vtipem, ale stala se z toho skutečná věc. Nová verze obsahuje pouze bug fix. Download odkaz posílám na požádání a většinou jen lidem, které znám. Žádné další updaty nebudou.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="warning">Herbert The Game II (Classic)</span></h5>
+                        <p class="card-text text-justify">Nepřímé pokračování první hry o mém kamarádovi Herbertovi. Tolik programování pluginů jsi ještě neviděl. Vývoj dočasně pozastaven. <br> <i>Nábor na beta testing zatím není dostupný, vrať se prosím později.</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-2">
+                    <p>&copy; 2024 Štěpán "rollkun" Kunta. Všechna práva vyhrazena.</p>
+                </div>
+                <div class="col-md-6 text-md-end mt-2">
+                    <a href="https://github.com/rollkun" class="text-light me-2">GitHub repozitář</a>
+                    <a href="https://cs.wikipedia.org/wiki/Autorské_právo" class="text-light">Copyright</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
