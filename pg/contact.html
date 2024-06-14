@@ -26,6 +26,18 @@
     .text-justify {
         text-align: justify;
     }
+
+    .fade-in {
+        opacity: 0;
+        animation: fadeIn 3s forwards;
+        animation-delay: 0.2s;
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    }
     </style>
 </head>
 <body>
@@ -59,7 +71,7 @@
         </div>
     </nav>
 
-    <section id="kontakt">
+    <section id="kontakt" class="fade-in">
         <form action="/action_page.php" class="was-validated">
             <div class="container-fluid">
                 <div class="mb-3 mt-3">
@@ -106,7 +118,7 @@
 
     <hr>
 
-    <section id="ostatni" class="container my-5">
+    <section id="ostatni" class="container my-5 fade-in">
         <h1 class="text-center">Další kontakt</h1>
         <div class="row">
 
