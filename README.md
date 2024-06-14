@@ -2,7 +2,7 @@
 
 ## Úpravy čehokoliv:
 
-### **c: Create - Vytvořit **
+### **c: Create - Vytvořit**
 
 _Vytvoření souboru. Pokud je nově vytvořený soubor v rootu, nemusí se uvádět adresář. Pokud se ovšem nachází jinde, je nutné jej uvést._
 > c: index.html -> /pages/main/...
